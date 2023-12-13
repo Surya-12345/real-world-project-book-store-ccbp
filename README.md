@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Book Store  -  Interactive Book store application which is used to amke buy the book by the user
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+    To make the Interactive Book store application which makes the user to buy the books
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Tech stack used in this project is 
+    1. Reactjs
+    2. React-router-dom
+    3. HTML5
+    4. CSS3
+    5. Javascript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Completion Instructions
 
-### `npm test`
+### Functionality
+    An interactive application which is user easily uses the application very easily
+    The application should have following pages
+        1. Home Page
+        2. Books Page
+        3. Cart Page
+        4. Checkout Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Must Have
 
-### `npm run build`
+    The following functionality should have in this application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    * HOME PAGE: Display the some books in grid view and the page should contains button which is navigates to books pages
+    * BOOKS PAGE: This page contains the list of book items in the grid view which is like to select the book and see the details and the user can see details of that particular book whether that book is suitable to buy or not by the user.
+    * CART PAGE: In this page contains the details of the selected books which is at-a-time buy the whole books which are important at a single order
+    * CHECKOUT PAGE: In this page contais the details of the order like "Address of the user", "Details of the payment", 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Nice to Have
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    * Authentication of the user
 
-### `npm run eject`
+### Guidelines to develop a project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Must Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    List the necessary guidelines to follow while developing the project, mentioned in the Assignment, if any
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Nice to Have
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    List the additional/suggested guidelines to follow while developing the project, mentioned in the Assignment, if any
 
-## Learn More
+### Submission Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Must Have
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    * Creating a Publice Repository
+    * Commit the Code with regular intervals with clear and neat message of that commit
+    * Add README file which contains the explanation of the project
 
-### Code Splitting
+#### Nice to Have
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    * If bonus task is done then evaluated by that implementation.
 
-### Analyzing the Bundle Size
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Design files
 
-### Making a Progressive Web App
+    List the references of design files required for the Assignment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### APIs
 
-### Advanced Configuration
+    List the APIs, providing any relevant endpoints, documentation links, or access keys, required for the Assignment if any
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Third-party packages
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    List the Third-party packages required for the Assignment, if any

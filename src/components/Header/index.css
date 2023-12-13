@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE619;
+    padding: 10px 30px;
+}
+.logo{
+    width: 150px;
+}
+.n-links-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.n-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: roboto;
+    font-size: 18px;
+}
+.link:hover{
+    color: gray;
+    cursor: pointer;
+}
+.logout-btn{
+    color: white;
+    background-color: #3F51B5;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 75px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
