@@ -1,6 +1,6 @@
 import {Component} from "react"
 
-import notFoundImage from "../../assets/not found image.avif"
+import notFoundImage from "../../assets/not-found-image.webp"
 import Header from "../Header";
 
 import "./index.css"

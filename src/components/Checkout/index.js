@@ -39,7 +39,7 @@ class Checkout extends Component {
                                 <FaArrowLeft className = "back-icon"/>
                             </button>
                             <div className = "form-and-summary">
-                                <UserDetailsForm />
+                                <UserDetailsForm/>
                                 <div className = "summary-container">
                                     <div className = "summary-item-container">
                                         <img src={image} alt={title} className="summary-item-image" />
