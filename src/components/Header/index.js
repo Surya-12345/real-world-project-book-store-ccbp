@@ -1,33 +1,35 @@
-import React from "react";
-import "./index.css";
-import { Link } from "react-router-dom";
+import { FaBook, FaShoppingBag } from "react-icons/fa";
+import {Link} from "react-router-dom"
+import "./index.css"
 
 const Header = () => {
-  return (
-    <>
-      <div className="navbar">
-        <Link to="/">
-          <img
-            src="https://res.cloudinary.com/surya-teja/image/upload/v1702014219/Book%20Store/crossword_logo_small_bc561912-757f-49bc-b641-bab1dfb66c4e_small_ysubkj.svg"
-            alt="logo.png"
-            className="logo"
-          />
-        </Link>
-        <div className="n-links-container">
-          <ul className="n-links">
-            <li className="link">
-                <Link to='/' className="link">Home</Link>
-            </li>
-            <li className="link">
-                <Link to='/books' className="link">Books</Link>
-            </li>
-            <li className="link">Cart</li>
-          </ul>
-          <button className="logout-btn">Logout</button>
-        </div>
-      </div>
-    </>
-  );
-};
+    return (
+        <nav className="header-container">
+          <div className="header-content-container">
+            <Link to = "/" className="nav-link">
+              <div className="logo-container">
+                  <div className="logo">C</div>
+                  CROSSWORD
+              </div>
+            </Link>
+    
+            <ul className="nav-items-container">
+              <Link to = "/books" className="nav-link">
+                <li className="icon-container">
+                  <FaBook className="icon" />
+                  <span className="icon-name">Book List</span>
+                </li>
+              </Link>
+              <Link to = "/cart" className = "nav-link">
+                <li className="icon-container">
+                  <FaShoppingBag className="icon" />
+                  <span className="icon-name">Cart</span>
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </nav>
+      );
+}
 
-export default Header;
+export default Header
